@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block Title %}
+Contact
+{% endblock Title %}
+{% block body %}
+<img src="/static/Images/contact.png" style="margin-left:1.5in ;margin-top:1cm">
+<div class="container">
+<h1 class="text-center my-4">Contact Us</h1>
+<form method="post" action="/contact">
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name here.">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="Enter your email here.">
+    </div>
+    <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter your phone number here.">
+    </div>
+    <div class="form-group">
+      <label for="desc">Suggestions</label>
+      <textarea class="form-control" id="desc" rows="3" name="desc" placeholder="Your suggestions value a lot. Please suggest us something."></textarea>
+    </div>
+    <button class="btn btn-primary type="submit" style="margin-bottom: 1in;">Submit</button>
+
+  </form>
+</div>
+{% endblock body %}
