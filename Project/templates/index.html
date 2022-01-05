@@ -1,190 +1,195 @@
-{% extends "base.html" %}
-{% block title %}
-Home
-{% endblock title %}
-{% block body %}
-  <div class="container-fluid my-4 px-0" style="background-color: burlywood;">
+{% extends "base.html" %} {% block title %} Home {% endblock title %} {% block body %}
+<div class="container-fluid px-0" style="padding: 1em; background: linear-gradient(45deg, lightblue,white,lightblue);">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/static/Images/mmm.jpg" class="d-block w-100" height="600" width="700" alt="PS MADIRA SUPPLIERS">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 style="color:yellow">VISITING CARD</h5>
-              <p style="color:yellow">PS MADIRA SUPPLIERS</p>
+            <div class="carousel-item active">
+                <img src="/static/Images/mmm.jpg" class="d-block w-100" height="600" width="700" alt="PS MADIRA SUPPLIERS">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color:yellow">VISITING CARD</h5>
+                    <p style="color:yellow">PS MADIRA SUPPLIERS</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/static/Images/5.jpg" style="margin-left:4in;" width="800" height="600" alt="PS MADIRA SUPPLIERS">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 style="color:yellow">STREETSIDE</h5>
-              <p style="color:yellow">IN FRONT OF KATERO PARTY PALACE</p>
+            <div class="carousel-item">
+                <img src="/static/Images/5.jpg" style="margin-left: 18em;" width="800" height="600" alt="PS MADIRA SUPPLIERS">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color:yellow">STREETSIDE</h5>
+                    <p style="color:yellow">IN FRONT OF KATERO PARTY PALACE</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/static/Images/4.jpg" style="margin-left:4in;" width="700" height="500" alt="PS MADIRA SUPPLIERS">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 style="color:yellow">SHOP</h5>
-              <p style="color:yellow">FRONT PART</p>
+            <div class="carousel-item">
+                <img src="/static/Images/4.jpg" style="margin-left: 20em;" width="700" height="500" alt="PS MADIRA SUPPLIERS">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color:yellow">SHOP</h5>
+                    <p style="color:yellow">FRONT PART</p>
+                </div>
             </div>
-          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
         </a>
-      </div>
-  </div>
-
-
-  <div class="container" style="background-color:burlywood">
-  <h1 class="my-4 text-center" style="font-style:unset; color:blueviolet">Select from the range of drinks.</h1>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/8848.jpg" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">8848 Vodka</h5>Crafted from grain spirits, distilled from French Winter Wheat, blended with Pure Spring Water from Himalayas. </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/olddurbar.jpg" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">Old Durbar</h5>The exquisite OLD DURBAR has been matured and mellowed in AMERICAN OAK BARRELS in SCOTLAND for 8 years.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/goldenoak.jpg" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">Golden Oak</h5>Blend of exquisite single malt and grain spirit. More balanced, full bodied, easier to drink than their other counterpart.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/tuborg.jpg" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">Tuborg Beer</h5>Bottom-fermented lager beer. Brewed on lager malt, slightly roasted, bright malt resulting the well-known mild, fresh taste.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/gorkha.png" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">Gorkha Beer</h5>Premium quality Nepali beer, brewed with the finest hops, pure water and barley malt. Launched in the Nepali market in 2006</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/redlabel.jpg" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">Red Label</h5>A blend of 30 young single malt and grain whiskeys. Bottled at 40 percent alcohol by volume. Offers a sweet and spicy flavor</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/bigmaster.jpg" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">Big Master Wine</h5>Original fruits (grape) natural flavour with sweet red wine finish. You can enjoy with baked pasta or roasted meat.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/khukurirum.jpg" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">Khukuri Rum</h5>Iconic Nepalese oak vatted dark rum launched in 1959. Matured for a minimum of eight months. Alcohol content: 42.8%</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="/static/Images/bluediamond.png" height="225" width="100%">
-            <div class="card-body">
-              <p class="card-text"><h5 style="color:brown">Blue Diamond</h5>Extra dry gin in the 40up segment. Infused with the fines botanical ingredients for a satisfying finish.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+</div>
+
+
+<div class="container">
+    <h1 class="my-4 text-center" style="font-style:unset; color:blueviolet">Select from the range of drinks.</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/8848.jpg" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">8848 Vodka</h5>Crafted from grain spirits, distilled from French Winter Wheat, blended with Pure Spring Water from Himalayas. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/olddurbar.jpg" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">Old Durbar</h5>The exquisite OLD DURBAR has been matured and mellowed in AMERICAN OAK BARRELS in SCOTLAND for 8 years.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/goldenoak.jpg" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">Golden Oak</h5>Blend of exquisite single malt and grain spirit. More balanced, full bodied, easier to drink than their other counterpart.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/tuborg.jpg" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">Tuborg Beer</h5>Bottom-fermented lager beer. Brewed on lager malt, slightly roasted, bright malt resulting the well-known mild, fresh taste.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/gorkha.png" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">Gorkha Beer</h5>Premium quality Nepali beer, brewed with the finest hops, pure water and barley malt. Launched in the Nepali market in 2006</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/redlabel.jpg" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">Red Label</h5>A blend of 30 young single malt and grain whiskeys. Bottled at 40 percent alcohol by volume. Offers a sweet and spicy flavor</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/bigmaster.jpg" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">Big Master Wine</h5>Original fruits (grape) natural flavour with sweet red wine finish. You can enjoy with baked pasta or roasted meat.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/khukurirum.jpg" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">Khukuri Rum</h5>Iconic Nepalese oak vatted dark rum launched in 1959. Matured for a minimum of eight months. Alcohol content: 42.8%</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="/static/Images/bluediamond.png" height="225" width="100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h5 style="color:brown">Blue Diamond</h5>Extra dry gin in the 40up segment. Infused with the fines botanical ingredients for a satisfying finish.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Stock</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock body %}

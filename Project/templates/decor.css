@@ -1,6 +1,11 @@
-h5{
-    color: rgba(100,0,200)
+h5 {
+    color: rgba(100, 0, 200)
 }
-p{
+
+p {
     color: #fe00ff;
+}
+
+.slides {
+    background-color: blue;
 }
